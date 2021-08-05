@@ -1,0 +1,11 @@
+#### trining instruction ###########3
+python train.py --train_dataset "/home/reshad/Medical-Transformer/train_folder/" --val_dataset "/home/reshad/Medical-Transformer/val_folder/" --direc '/home/reshad/Medical-Transformer/train_results' --batch_size 4 --epoch 400 --save_freq 10 --modelname "gatedaxialunet" --learning_rate 0.001 --imgsize 128 --gray "no"
+
+python train.py --train_dataset "/home/reshad/Medical-Transformer/train_folder/" --val_dataset "/home/reshad/Medical-Transformer/val_folder/" --direc '/home/reshad/Medical-Transformer/train_results' --batch_size 4 --epoch 400 --save_freq 10 --modelname "MedT" --learning_rate 0.001 --imgsize 128 --gray "no"
+
+# testing ##
+
+python test.py --loaddirec "/home/reshad/Medical-Transformer/train_results/390/gatedaxialunet.pth" --val_dataset "/home/reshad/Medical-Transformer/test_folder" --direc '/home/reshad/Medical-Transformer/test_results' --batch_size 1 --modelname "gatedaxialunet" --imgsize 128 --gray "no"
+
+python test.py --loaddirec "/home/reshad/Medical-Transformer/train_results/390/MedT.pth" --val_dataset "/home/reshad/Medical-Transformer/test_folder" --direc '/home/reshad/Medical-Transformer/test_results' --batch_size 1 --modelname "MedT" --imgsize 128 --gray "no"
+
