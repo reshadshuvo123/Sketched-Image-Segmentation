@@ -10,7 +10,7 @@ U-Net, HR-Net, Transformer
 
 Deep Learning Framework: Pytorch, Keras 
 
-Run: 
+Instructions: 
 
 Point shooting:
 1. To get the boudng box along subimages of objects please run point-shooting-method-sketched-images.py 
