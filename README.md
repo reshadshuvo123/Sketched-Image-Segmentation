@@ -12,8 +12,8 @@ Deep Learning Framework: Pytorch, Keras
 
 Instructions: 
 
-Point shooting:
-1. To get the boudng box along subimages of objects please run point-shooting-method-sketched-images.py 
+
+1. Point shooting: To get the boudng box along subimages of objects please run point-shooting-method-sketched-images.py 
    
    Command: python point-shooting-method-sketched-images.py
    
