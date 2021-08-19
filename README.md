@@ -23,4 +23,4 @@ Point shooting:
 3. To train tarnsformer, please run the following command:
    python train.py --train_dataset "enter train directory" --val_dataset "enter validation directory" --direc 'path for results to be saved' --batch_size 4 --epoch 400 --save_freq 10 --modelname "gatedaxialunet" --learning_rate 0.001 --imgsize 128 --gray "no"
 
-For testing: please run testing_transformer.py 
+   For testing: please run testing_transformer.py 
