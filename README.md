@@ -37,4 +37,4 @@ Instructions:
    
    2. To only resize the input images and then apply it to the transformer model: 
    
-   please run testing_transformer.py
+   please run testing_transformer_Ex.py
