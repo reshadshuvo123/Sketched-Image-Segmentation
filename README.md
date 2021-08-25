@@ -30,4 +30,8 @@ Instructions:
 
    python train.py --train_dataset "enter train directory" --val_dataset "enter validation directory" --direc 'path for results to be saved' --batch_size 4 --epoch 400 --save_freq 10 --modelname "gatedaxialunet" --learning_rate 0.001 --imgsize 128 --gray "no"
 
-   For testing: please run testing_transformer.py 
+   For testing: 
+   1.  To generate and resize ground-truth image using point-shooting and also resize the orginal images: 
+   please run testing_transformer.py
+   2. To only resize the input images and then apply it to the transformer model: 
+   please run testing_transformer.py
