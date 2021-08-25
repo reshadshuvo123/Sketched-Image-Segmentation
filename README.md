@@ -32,6 +32,9 @@ Instructions:
 
    For testing: 
    1.  To generate and resize ground-truth image using point-shooting and also resize the orginal images: 
+   
    please run testing_transformer.py
+   
    2. To only resize the input images and then apply it to the transformer model: 
+   
    please run testing_transformer.py
