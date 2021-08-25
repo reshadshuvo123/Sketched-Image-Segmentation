@@ -27,7 +27,9 @@ Instructions:
    
    For testing, please run UNet-HR-Net-testing.py
    
-3. To train tarnsformer, please run the following command:
+3. Please download Medical Transformer (https://github.com/jeya-maria-jose/Medical-Transformer) and put testing_transformer.py, test_ex.py,testing_transformer_ex.py files on that folder. Trained model work on sketeched image segmentation.
+ 
+ To train tarnsformer, please run the following command:
 
    python train.py --train_dataset "enter train directory" --val_dataset "enter validation directory" --direc 'path for results to be saved' --batch_size 4 --epoch 400 --save_freq 10 --modelname "gatedaxialunet" --learning_rate 0.001 --imgsize 128 --gray "no"
 
