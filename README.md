@@ -18,6 +18,7 @@ Instructions:
    Command: python point-shooting-method-sketched-images.py
    
    To get the boudng box along subimages of objects and coordinates please run Point-shooting-bounding-box-roi-coordinates.py
+   
    To get the bouding box from the contour, please run Point-shooting-Method-sketced-image-contour-extractino.py
    
 2. To train U-Net: Please run U-Net-Segmentaion.py and for HR-Net please run  HR-Net.py
